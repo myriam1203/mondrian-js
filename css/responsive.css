@@ -9,7 +9,23 @@ body {
 
 
 .container {
-  width: 100%
-  text-align : center;
+  width: 100%;
+}
 
+.row{
+  width: 100%;
+}
+
+.mondrian-text {
+font-size: 20px;
+}
+
+.mymondrian {
+flex-direction: column;
+justify-content: space-between;
+padding:0 10px;
+}
+img{
+width: 100%;
+}
 }

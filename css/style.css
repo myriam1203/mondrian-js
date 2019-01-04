@@ -115,13 +115,14 @@ section.container .row:nth-child(3) .col:nth-child(4) {
   border-right: 10px solid black;
 }
 
-.mondrian {
-float: right;
+.mondrian-text {
 font-size: 50px;
-
+text-align: center;
 }
 
 .mymondrian {
-  float : right;
-  font-size: 50px;
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+padding:0 50px;
 }

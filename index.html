@@ -3,15 +3,17 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mondrian Myriam Achache</title>
 </head>
 
 <body>
-  <section class="mymondrian">
-    <p>Mon Mondrian - HTML/CSS et Javascript <br> Appuyez sur les carrés afin qu'ils puissent changer de couleur !</p>
-  </section>
+  <div class="mymondrian">
+    <section>
+      <p class="mondrian-text">Mon Mondrian - HTML/CSS et Javascript <br> Appuyez sur les carrés afin qu'ils puissent changer de couleur !</p>
+    </section>
     <section class="container">
       <section class="row">
         <div class="col bg-white"></div>
@@ -48,18 +50,14 @@
 
       </section>
     </section>
-  </section>
-
-    <article class="veritable-mondrian container">
-      <picture>
-      <source srcset="img/mondrian.jpg" media="(max-width: 600px)">
+  </div>
+  <div class="mymondrian">
+    <p class="mondrian-text">Le véritable mondrian</p>
     <img src="img/mondrian.jpg" alt="mondrian-real-paint" class="mondrian1">
-    <aside class="mondrian">Le véritable mondrian</aside>
-  </picture>
-  </article>
+  </div>
+
+
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
-<script type="text/javascript" src="js/script.js"></script>
-
-
 
 </html>
